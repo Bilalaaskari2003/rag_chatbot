@@ -54,12 +54,18 @@ Response + Source Attribution
 #### Step 1 — Open the notebook
 Upload `task4_rag_chatbot.ipynb` to [colab.research.google.com](https://colab.research.google.com)
 
-#### Step 2 — Get a free Groq API key
-1. Sign up at [console.groq.com](https://console.groq.com)
-2. Go to **API Keys** → create a new key
-3. In Colab, click the **🔑 Secrets icon** in the left sidebar
-4. Add secret: Name = `GROQ_API_KEY`, Value = your key
-5. Toggle **Notebook access ON**
+#### Step 2 — Get your own free Groq API key
+
+> ⚠️ **Every user must create their own free API key. No key is included in this repo — it is personal and free to get.**
+
+1. Go to **[console.groq.com](https://console.groq.com)** and sign up free (Google login works)
+2. Click **API Keys** in the left sidebar → **Create API Key**
+3. Copy the key — it starts with `gsk_...`
+4. In Colab, click the **🔑 Secrets icon** in the left sidebar
+5. Click **Add new secret**:
+   - Name: `GROQ_API_KEY`
+   - Value: paste your key
+6. Toggle **Notebook access ON**
 
 #### Step 3 — Run all notebook cells in order
 ```
